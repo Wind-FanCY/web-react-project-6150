@@ -1,0 +1,141 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+:root {
+    --color-link-black: black;
+    --color-link-hover-background-rebeccapurple:rebeccapurple;
+    --color-link-hover-font-white: white;
+    --color-header-footer-plum: plum;
+    --color-nav-main-pink: pink;
+    /* Custom Property */
+    --header-footer: var(--color-header-footer-plum);
+    --primary-a: var(--color-link-black);
+    --hover-a: var(--color-link-hover-font-white);
+    --hover-a-background: var(--color-link-hover-background-rebeccapurple);
+    --nav-main: var(--color-nav-main-pink);
+    --hover-nav-a: var(--color-header-footer-plum);
+    --border-line: var(--color-link-black)
+}
+
+/* Create the overall layout */
+#homepage {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 3rem 1fr 3rem;
+    grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+}
+
+/* Assign content to the layout */
+header {
+    grid-area: header;
+    background-color: var(--header-footer);
+}
+
+.local-menu {
+    grid-area: nav;
+    background-color: var(--nav-main);
+}
+
+main {
+    grid-area: main;
+    background-color: var(--nav-main);
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--header-footer);
+}
+/* Finish assigning */
+
+/* Code the styles for each section */
+/* header */
+.primary-nav {
+    background-color: var(--header-footer);
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu li a:hover {
+    background-color: var(--hover-a-background);
+    color: var(--hover-a);
+}
+
+/* nav */
+.local-menu ul {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1rem;
+    margin: 2rem 0 0 0;
+    padding: 0 0 0 1rem;
+    align-items: flex-start;
+}
+
+.local-menu li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.local-menu li a {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.local-menu li a:hover {
+    background-color: var(--hover-nav-a);
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid var(--border-line);
+    padding: 1rem 0.5rem 1rem 1rem;
+    gap: 1rem;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 0 1rem;
+}
+
+/* Use Pseudo-element to add space
+    between text and link  */
+footer a::before {
+    content: "\00a0";
+    display: inline-block;
+}
