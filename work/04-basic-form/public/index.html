@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04-Basic-Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="basic-form">
+        <header class="header">
+            <img src="logo.png" alt="">
+            <h1>04 Basic Form</h1>
+        </header>
+        <main class="main">
+            <form action="/submit" method="post" id="register-form">
+                <label for="username" class="name">
+                    <span>Name<span class="red">*</span>:</span>
+                    <input type="text" name="username" id="username" placeholder="Enter your name" required>
+                </label>
+                <label for="email" class="email">
+                    <span>Email<span class="red">*</span>:</span>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </label>
+                <span class="question">Do you want us to send you annoying emails?</span>
+                <label for="annoy-me" class="annoy">
+                    <input type="checkbox" name="annoy-me" id="annoy-me" checked>
+                    <span>Yes</span>
+                </label>
+                <label for="tier" class="tier">
+                    <span>Tier Type<span class="red">*</span>:</span>
+                    <select name="tier" id="tier" required>
+                        <option value="" disabled selected>
+                            -- Please select --
+                        </option>
+                        <option value="1">
+                            Silver Tier
+                        </option>
+                        <option value="2">
+                            Gold Tier
+                        </option>
+                        <option value="3">
+                            Platinum Tier
+                        </option>
+                    </select>
+                </label>
+                <span class="notify"><span class="red">*</span> indicates a required field</span>
+                <button type="submit" class="submit">
+                    Register
+                </button>
+            </form>
+        </main>
+        <footer class="footer">
+            <a href="#">privacy policy</a>
+        </footer>
+    </div>
+</body>
+</html>
