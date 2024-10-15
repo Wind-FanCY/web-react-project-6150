@@ -1,0 +1,133 @@
+.red {
+    color: red;
+}
+
+.main #register-form {
+    margin: 4rem 0;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border: 1px dashed var(--page-text-color);
+    box-shadow: 2px 2px 4px var(--page-text-color);
+    background-color: var(--card-first-color);
+}
+
+.main #register-form {
+    grid-template-rows: repeat(7, auto);
+}
+
+.name,
+.email {
+    grid-column: 2 / span 10;
+    grid-row: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.name input,
+.email input {
+    width: 80%;
+    max-width: 30rem;
+    padding: 0.25rem;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+}
+
+.question {
+    grid-column: 2 / span 10;
+    grid-row: span 1;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.annoy {
+    grid-column: 2 / span 10;
+    grid-row: span 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.annoy input {
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+
+}
+
+.annoy span {
+    height: 1rem;
+    padding-left: 1rem;
+    line-height: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.tier {
+    grid-column: 2 / span 10;
+    grid-row: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.tier select {
+    padding: 0.25rem 0.75rem;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+}
+
+.submit {
+    grid-column: 2 / span 10;
+    grid-row: span 1; 
+    justify-self: center;
+    width: 60%;
+    padding: 0.5rem;
+    margin:4rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    font-weight: 700;
+}
+
+.submit:hover {
+    background-color: var(--card-second-color);
+}
+
+.notify {
+    grid-column: 2 / span 10;
+    grid-row: span 1;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+    font-size: small;
+    color: rgb(84, 84, 84);
+}
+
+@media (min-width: 50rem) {
+    .basis .main {
+        grid-column: 4 / span 6;
+        grid-row: span 1;
+    }
+
+    .submit {
+        grid-column: 8 / span 4;
+    }
+}
+
+@media (max-width: 50rem) {
+    .basis .main {
+        grid-column: 2 / span 10;
+        grid-row: span 1;
+    }
+
+    .submit {
+        margin-top: 5rem;
+    }
+}
+
+
