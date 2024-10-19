@@ -1,0 +1,27 @@
+.main {
+    padding: 4rem 0;
+}
+
+.main p {
+    margin-bottom: 1rem;
+    color: var(--page-text-color);
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.real {
+    font-weight: 600;
+}
+
+.bold {
+    color: black;
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+}
+
+@media (min-width: 50rem) {
+    .basis .main {
+        grid-column: 3 / span 8;
+    }
+}

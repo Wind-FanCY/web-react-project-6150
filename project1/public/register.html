@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+    <div class="basis">
+        <header class="header">
+            <a href="index.html"><img src="images/logo-img.png" alt="The web logo."></a>
+            <h1>Register</h1>
+        </header>
+        <nav class="nav">
+            <ul class="menu">
+                <li class="menu-option">
+                    <button class="menu-name" type="button">Menu</button>
+                    <ul class="submenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </li>
+                <li class="menu-option">
+                    <button class="menu-name" type="button">External Links</button>
+                    <ul class="submenu">
+                        <li><a href="https://www.petmd.com/">PetMD</a></li>
+                        <li><a href="https://www.dogstrust.org.uk/">Dogs Trust</a></li>
+                        <li><a href="https://www.akc.org/">American Kennel Club</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main class="main">
+            <form action="/register" method="post" id="register-form">
+                <label for="username" class="name">
+                    <span><span class="red">*</span>Name:</span>
+                    <input type="text" name="username" id="username" placeholder="Enter your name" required>
+                </label>
+                <label for="email" class="email">
+                    <span><span class="red">*</span>Email:</span>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </label>
+                <span class="question">Do you want us to send you annoying emails?</span>
+                <label for="annoy-me" class="annoy">
+                    <input type="checkbox" name="annoy-me" id="annoy-me" checked>
+                    <span>Yes</span>
+                </label>
+                <label for="tier" class="tier">
+                    <span><span class="red">*</span>Tier Type:</span>
+                    <select name="tier" id="tier" required>
+                        <option value="" disabled selected>
+                            -- Please select --
+                        </option>
+                        <option value="1">
+                            Silver Tier
+                        </option>
+                        <option value="2">
+                            Gold Tier
+                        </option>
+                        <option value="3">
+                            Platinum Tier
+                        </option>
+                    </select>
+                </label>
+                <span class="notify"><span class="red">*</span> indicates a required field</span>
+                <button type="submit" class="submit">
+                    Register
+                </button>
+            </form>
+        </main>
+        <footer class="footer">
+            <a href="about.html">privacy policy</a>
+        </footer>
+    </div>
+</body>
+</html>
