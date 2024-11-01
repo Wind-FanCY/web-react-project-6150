@@ -1,0 +1,337 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.js-form {
+    min-width: 360px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: whitesmoke;
+}
+
+.header {
+    grid-column: span 12;
+    grid-row: span 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 2px dashed rgb(92, 92, 92);
+    background-color: rgb(255, 255, 255);
+}
+
+.header__logo {
+    width: 6rem;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.header__title {
+    text-shadow: 2px 2px 4px gray;
+}
+
+.main {
+    min-height: 80dvh;
+    grid-column: span 12;
+    grid-row: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.red {
+    color: red;
+}
+
+.register {
+    max-width: 1000px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 2rem 0;
+    padding: 2rem 0;
+    border: 1px solid #a2a2a2;
+    color: #343434;
+    background-color: #fae1a6;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.register__label {
+    margin-top: 2rem;
+}
+
+.register__name {
+    padding: 0.25rem;
+}
+
+.register__email {
+    padding: 0.25rem;
+}
+
+.register__confirm {
+    padding: 0.25rem;
+}
+
+.name-alert {
+    font-size: small;
+    color: red;
+}
+
+.email-alert {
+    font-size: small;
+    color: red;
+}
+
+.confirm-alert {
+    font-size: small;
+    color: red;
+}
+
+.register__check-text {
+    margin-top: 2rem;
+}
+
+.register__special-label {
+    display: flex;
+    align-items: center;
+}
+
+.register__check {
+    width: 1rem;
+    height: 1rem;
+}
+
+.register__check-label {
+    padding-left: 0.5rem;
+}
+
+.register__tier {
+    padding: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.notify {
+    grid-row: span 1;
+    padding-left: 1rem;
+    text-align: left;
+    font-size: small;
+    color: rgb(84, 84, 84);
+}
+
+.register__button {
+    margin-top: 4rem;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    color: black;
+    background-color: greenyellow;
+    border: 4px ridge rgb(123, 184, 33);
+    border-radius: 2rem;
+}
+
+.register__button:hover {
+    color: white;
+    background-color: green;
+}
+
+.footer {
+    grid-column: span 12;
+    grid-row: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #343434;
+}
+
+.footer__link {
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: small;
+    font-weight: 700;
+    border-radius: 2rem;
+}
+
+.footer__link:hover {
+    color: #343434;
+    background-color: aliceblue;
+    font-size: small;
+    font-weight: 700;
+}
+
+@media (max-width: 40rem) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header__title {
+        margin-top: 1rem;
+    }
+
+    .main {
+        min-height: 75dvh;
+    }
+
+    .register__label {
+        grid-column: 3 / span 8;
+        grid-row: span 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .register__name {
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .register__email {
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .register__confirm{
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    .name-alert {
+        grid-column: 3 / span 8;
+        grid-row: span 1;
+        position: relative;
+    }
+
+    .email-alert {
+        grid-column: 3 / span 8;
+        grid-row: span 1;
+        position: relative;
+    }
+
+    .confirm-alert {
+        grid-column: 3 / span 8;
+        grid-row: span 1;
+        position: relative;
+    }
+
+    .out {
+        position: absolute;
+    }
+
+    .register__check-text {
+        grid-column: 3 / span 8;
+        grid-row: span 1;
+        text-align: left;
+    }
+
+    .register__special-label {
+        grid-column: 3 / span 3;
+        grid-row: span 1;
+        margin-top: 0.25rem;
+        justify-content: flex-start;
+    }
+
+    .register__tier {
+        margin-top: 0.5rem;
+        width: 60%;
+    }
+
+    .notify {
+        grid-column: 2 / span 10;
+    }
+
+    .register__button {
+        grid-column: 8 / span 4;
+        grid-row: span 1;
+    }
+}
+
+@media (min-width: 40rem) {
+    .header__title{
+        margin-left: 1rem;
+    }
+
+    .register__label {
+        grid-column: 1 / span 8;
+        grid-row: span 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .register__name-label {
+        line-height: 1.5rem;
+        text-align: right;
+    }
+
+    .register__email-label {
+        line-height: 1.5rem;
+        text-align: right;
+    }
+
+    .register__confirm-label {
+        line-height: 1.5rem;
+        text-align: right;
+    }
+
+    .name-alert {
+        grid-column: span 3;
+        grid-row: span 1;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        line-height: 1.5rem;
+    }
+
+    .email-alert {
+        grid-column: span 3;
+        grid-row: span 1;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        line-height: 1.5rem;
+    }
+
+    .confirm-alert {
+        grid-column: span 4;
+        grid-row: span 1;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        line-height: 1.5rem;
+    }
+
+    .register__check-text {
+        grid-column: 2 / span 6;
+        text-align: right;
+    }
+
+    .register__special-label {
+        grid-column: span 2;
+        margin-top: 2rem;
+        justify-self: flex-end;
+    }
+
+    .register__tier-label {
+        line-height: 1.5rem;
+        text-align: right;
+    }
+
+    .register__tier {
+        width: 80%;
+    }
+
+    .notify {
+        grid-column: 4 / span 6;
+    }
+
+    .register__button {
+        grid-column: 6 / span 2;
+    }
+}

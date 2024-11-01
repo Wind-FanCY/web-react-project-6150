@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-FORM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="js-form">
+        <header class="header">
+            <img class="header__logo" src="logo.png" alt="This is a placeholder image.">
+            <h1 class="header__title">07-Js-Form</h1>
+        </header>
+        <main class="main">
+            <form action="/register" method="post" class="register">
+                <label for="username" class="register__label">
+                    <span class="register__name-label"><span class="red">*</span>Name:</span>
+                    <input type="text" name="username" id="username" class="register__name" placeholder="enter your name">
+                </label>
+                <span class="name-alert"></span>
+                <label for="email" class="register__label">
+                    <span class="register__email-label"><span class="red">*</span>Email:</span>
+                    <input type="text" name="email" id="email" class="register__email" placeholder="enter your email">
+                </label>
+                <span class="email-alert"></span>
+                <label for="confirm" class="register__label">
+                    <span class="register__confirm-label">Confirm Email:</span>
+                    <input type="text" name="confirm" id="confirm" class="register__confirm" placeholder="enter your email again">
+                </label>
+                <span class="confirm-alert"></span>
+                <span class="register__check-text">Would you like to receive related emails?</span>
+                <label for="wants-spam" class="register__special-label">
+                    <input type="checkbox" name="wants-spam" id="wants-spam" class="register__check">
+                    <span class="register__check-label">Yes</span>
+                </label>
+                <label for="tier" class="register__label">
+                    <span class="register__tier-label">Tier:</span>
+                    <select name="tier" id="tier" class="register__tier">
+                        <option value="0" selected disabled>Select a tier</option>
+                        <option value="1">Basic Tier</option>
+                        <option value="2">Silver Tier</option>
+                        <option value="3">Gold Tier</option>
+                        <option value="4">Platinum Tier</option>
+                        <option value="5">Diamond Tier</option>
+                    </select>
+                </label>
+                <span class="notify">
+                    <span class="red">*</span> indicates a required field
+                </span>
+                <span class="notify">
+                    Confirm email must match the email
+                </span>
+                <button type="submit" class="register__button">
+                    Register
+                </button>
+            </form>
+        </main>
+        <footer class="footer">
+            <a class="footer__link" href="privacy.html">privacy policy</a>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
