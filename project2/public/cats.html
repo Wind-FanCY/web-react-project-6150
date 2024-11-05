@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catspage</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/cats.css">
+</head>
+<body>    
+    
+    <div class="common-layout">
+        <dialog class="modal">
+            <h2 class="form-title">Subscribe to the Latest News!</h2>
+            <form action="/subscribe" class="subscribe__form" method="post">
+                <label for="email" class="form__label">
+                    <span class="email__label">Email: <span class="required">* required</span></span>
+                    <input type="text" class="email__input" id="email" name="email">
+                    <span class="email__error"></span>
+                </label>
+                <label for="confirm" class="form__label">
+                    <span class="confirm__label">Confirm Email: <span class="required">* required</span></span>
+                    <input type="text" class="confirm__input" id="confirm" name="confirm">
+                    <span class="confirm__error"></span>
+                </label>
+                <button class="subscribe__submit" type="submit">Subscribe</button>
+                <button class="subscribe__cancel" type="button">Cancel</button>
+            </form>
+        </dialog>
+        <header class="header">
+            <a href="#main" class="skip-link">Skip to content</a>
+            <div class="logo">
+                <a class="logo-link" href="/"  aria-label="Skip to home page."><img src="images/logo.png" alt="" class="link-image"></a>
+                <h1 class="logo-title">Cats Power the Internet</h1>
+            </div>
+            <nav class="nav">
+                <ul class="menu">
+                </ul>
+            </nav>
+        </header>
+        <main class="main" id="main">
+            <div class="cats-card">
+                <h3 class="card-title">Tiger</h3>
+                <img src="images/cats-cat-01.jpg" alt="Tiger is a Bengal cat lying there." class="card-image">
+                <div class="card-text">
+                    <p>Lorem ipsum dolor sit amet. Vivamus lacinia odio vitae vestibulum. Praesent non risus a libero
+                        laoreet vestibulum.
+                    </p>
+                    <p>Vivamus lacinia odio vitae vestibulum. Praesent non risus a libero laoreet vestibulum.</p>
+                    <p>Anata no tame ni <button class="subscribe" type="button">Subscribe</button> tanoshiku arimasu.</p>
+                </div>
+            </div>
+            <div class="cats-card">
+                <h3 class="card-title">Bella</h3>
+                <img src="images/cats-cat-02.jpg" alt="Bella is an orange cat rubbing against the bookshelf." class="card-image">
+                <div class="card-text">
+                    <p>Vivamus lacinia odio vitae vestibulum. Praesent non risus a libero laoreet vestibulum.</p>
+                    <p>Integer in nisi ac ligula efficitur suscipit. Phasellus imperdiet, justo a vestibulum viverra, nunc
+                        justo dapibus mi,
+                        vel scelerisque mi magna a arcu.</p>
+                        <p>Anata no tame ni <button class="subscribe" type="button">Subscribe</button> tanoshiku arimasu.</p>
+                </div>
+            </div>
+            <div class="cats-card">
+                <h3 class="card-title">Milo</h3>
+                <img src="images/cats-cat-03.jpg" alt="Milo is the Norwegian forest kitten that keeps walking towards you." class="card-image">
+                <div class="card-text">
+                    <p>Vivamus lacinia odio vitae vestibulum. Praesent non risus a libero laoreet vestibulum.</p>
+                    <p>Lorem ipsum dolor sit amet. Vivamus lacinia odio vitae vestibulum. Praesent non risus a libero
+                        laoreet vestibulum.
+                    </p>
+                    <p>Sed auctor massa in dui tincidunt, nec volutpat eros fermentum. Mauris dapibus eros ut ex viverra,
+                        ut gravida magna
+                        tincidunt. Curabitur sed lacus sit amet dui fermentum faucibus.</p>
+                        <p>Anata no tame ni <button class="subscribe" type="button">Subscribe</button> tanoshiku arimasu.</p>
+                </div>
+            </div>
+            <div class="cats-card">
+                <h3 class="card-title">Leo</h3>
+                <img src="images/cats-cat-04.jpg" alt="Leo is an American shorthair cat lying on the fence." class="card-image">
+                <div class="card-text">
+                    <p>Vivamus lacinia odio vitae vestibulum. Praesent non risus a libero laoreet vestibulum.</p>
+                    <p>Etiam nec lorem sit amet eros hendrerit dictum. Cras luctus ex a libero laoreet, quis laoreet dui
+                        consectetur.
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <p>Anata no tame ni <button class="subscribe" type="button">Subscribe</button> tanoshiku arimasu.</p>
+                </div>
+            </div>
+            <div class="cats-card">
+                <h3 class="card-title">Shadow</h3>
+                <img src="images/cats-cat-05.jpg" alt="Shadow is a British shorthair cat wearing sunglasses." class="card-image">
+                <div class="card-text">
+                    <p>Ut cursus urna nec erat tincidunt, vel tincidunt orci ullamcorper. Nulla ac libero vitae nisl
+                        bibendum euismod. Fusce
+                        vel libero nec dolor facilisis facilisis. Quisque vehicula velit sit amet arcu egestas, in malesuada odio cursus.
+                    </p>
+                    <p>
+                        Donec
+                        euismod arcu eu nisi dignissim ultricies. Donec vehicula, arcu ut elementum vehicula, nisi elit vehicula nunc, et
+                        facilisis justo neque ut nulla.
+                    </p>
+                    <p>Anata no tame ni <button class="subscribe" type="button">Subscribe</button> tanoshiku arimasu.</p>
+                </div>
+            </div>
+            <div class="cats-card">
+                <h3 class="card-title">Smokey</h3>
+                <img src="images/cats-cat-06.jpg" alt="Smokey is a Persian cat that looks up at you." class="card-image">
+                <div class="card-text">
+                    <p>Sed auctor massa in dui tincidunt, nec volutpat eros fermentum. Mauris dapibus eros ut ex viverra,
+                        ut gravida magna
+                        tincidunt. Curabitur sed lacus sit amet dui fermentum faucibus.</p>
+                    <p>Vivamus lacinia odio vitae vestibulum. Praesent non risus a libero laoreet vestibulum.</p>
+                    <p>Anata no tame ni <button class="subscribe" type="button">Subscribe</button> tanoshiku arimasu.</p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <a href="/about.html" class="footer-link">Privacy Policy</a>
+            <a href="/about.html" class="footer-link">Work for Us</a>
+            <a href="/about.html" class="footer-link">Contact Us</a>
+            <a href="/about.html" class="footer-link">Social Media</a>
+        </footer>
+    </div>
+    <script src="js/common.js"></script>
+    <script src="js/cats.js"></script>
+</body>
+</html>
