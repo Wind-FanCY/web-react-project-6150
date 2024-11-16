@@ -1,0 +1,38 @@
+.buttons__reorder {
+    padding: 1rem  2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: wheat;
+}
+
+.off {
+    display: none;
+}
+
+.buttons__reorder:hover {
+    background-color: rgb(243, 198, 114);
+}
+
+@keyframes onDisplay {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .buttons__reorder {
+        transition: background-color 0.5s ease;
+        animation: onDisplay 1s ease;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .buttons__reorder {
+        transition: none;
+        animation: none;
+    }
+}
