@@ -1,0 +1,17 @@
+p {
+    margin-bottom: 1rem;
+    color: #343434;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.real {
+    font-weight: 600;
+}
+
+.bold {
+    color: #343434;
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+} 
