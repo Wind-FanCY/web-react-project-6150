@@ -1,0 +1,23 @@
+I downloaded all the images from unsplash.com except logo.
+
+
+The logo image I personally own:
+
+* logo-img.png -- I used ai to synthesize the website logo.
+
+
+The Images I downloaded from unsplash.com (They are all free to use under the Unsplash License) :
+
+* dog-01.png -- https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+* dog-02.png -- https://images.unsplash.com/photo-1672116912655-7e718e8f65fb?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+* dog-03.png -- https://images.unsplash.com/photo-1671202763812-539806f76255?q=80&w=1773&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+* dog-04.png -- https://images.unsplash.com/photo-1713870368761-4d78de068c3c?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+* dog-05.png -- https://images.unsplash.com/photo-1683814379330-850b83821645?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+* dog-06.png -- https://images.unsplash.com/photo-1529831129093-0fa4866281ee?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+* dog-07.png -- https://images.unsplash.com/photo-1613947748606-bc0b2aaa4369?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D

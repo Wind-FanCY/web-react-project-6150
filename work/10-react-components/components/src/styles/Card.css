@@ -1,0 +1,37 @@
+.card{
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto 1fr auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 4px gray;
+    background-color: white;
+}
+
+.card__image {
+    grid-column: span 12;
+    grid-row: span 1;
+    width: 100%;
+    object-fit: cover;
+    border: 4px double #343434;
+}
+
+.card__title {
+    grid-column: span 12;
+    grid-row: span 1;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.card__text {
+    grid-column: span 12;
+    grid-row: span 1;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    overflow-wrap: break-word;
+    text-align: justify;
+    text-indent: 0;
+    color: #343434;
+}

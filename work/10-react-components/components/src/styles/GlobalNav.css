@@ -1,0 +1,12 @@
+.global-nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.global-nav__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

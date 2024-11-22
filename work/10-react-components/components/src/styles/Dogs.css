@@ -1,0 +1,15 @@
+.dogs {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+
+.panel:nth-child(2n) .panel__image {
+    grid-column: 1 / span 4;
+    grid-row: span 3;
+}
+
+.panel:nth-child(2n-1) .panel__image {
+    grid-column: 9 / span 4;
+    grid-row: 1 / 4;
+}
