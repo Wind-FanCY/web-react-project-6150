@@ -1,0 +1,135 @@
+.profile {
+    width: 45rem;
+    padding: 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border: 2px solid #343434;
+    border-radius: 2rem;
+    background-color: aliceblue;
+}
+ 
+.profile__avator {
+    grid-column: span 12;
+    grid-row: span 1;
+    margin: auto;
+    width: 14rem;
+    border-radius: 8rem;
+    border: 4px double #343434;
+}
+
+.profile__title {
+    grid-column: 2 / span 3;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+
+.profile__content {
+    grid-column: 5 / span 4;
+    margin-top: 4rem;
+    font-weight: 500;
+}
+
+.profile__label {
+    grid-column: span 12;
+    grid-row: span 1;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avator__title {
+    margin-right: 1rem;
+    font-size: small;
+}
+
+.avator__select {
+    padding: 0.25rem 0.5rem;
+}
+
+.profile__edit {
+    grid-column: 10 / span 3;
+    width: 50%;
+    padding: 0.5rem 1rem;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #343434;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: beige;
+}
+
+.button__icon {
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.profile__check {
+    margin-bottom: 2rem;
+}
+
+.profile__verify {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.edit__name {
+    grid-column: 5 / span 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.edit__actual {
+    grid-column: 5 / span 4;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+}
+
+.edit__input {
+    padding: 0.25rem 0.5rem;
+    margin-top: 3.5rem;
+}
+
+.edit__buttons {
+    grid-column: 9 / span 4;
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons__cancel {
+    width: 40%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #343434;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: beige;
+}
+
+.buttons__save {
+    width: 40%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #343434;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: beige;
+}
+
+.error__message {
+    grid-column: 5 / span 4;
+    position: absolute;
+    margin-top: 0.5rem;
+    color: red;
+    top: 5rem
+}
