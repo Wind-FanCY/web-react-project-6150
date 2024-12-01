@@ -1,0 +1,25 @@
+.footer {
+    grid-column: span 12;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #343434;
+}
+
+.footer__link {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-size: small;
+    font-weight: 700;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #343434;
+    background-color: beige;
+}
+
+

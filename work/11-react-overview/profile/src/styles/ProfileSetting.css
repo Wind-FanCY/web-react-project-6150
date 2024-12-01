@@ -1,0 +1,60 @@
+.profile__button {
+    all: unset;
+    margin: 2rem 2rem;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.profile__image {
+    width: 3rem;
+    border-radius: 2rem;
+}
+
+.profile__dropdown {
+    position: absolute;
+    width: 125%;
+    border: 1px solid lightblue;
+    right: 0;
+    background-color: lightblue;
+}
+
+.profile__dropdown::before {
+    position: absolute;
+    content: "";
+    border: 15px solid transparent;
+    border-bottom: 15px solid lightblue;
+    top: -30px;
+    left: 50%;
+}
+
+.dropdown__username {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.dropdown__link {
+    display: block;
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: #343434;
+}
+
+.dropdown__link:hover {
+    color: blue;
+    background-color: aliceblue;
+}
+
+.hidden {
+    display: none;
+}
+
+.fabulous {
+    color: #4500cf;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgb(98, 98, 98);
+}

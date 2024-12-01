@@ -1,0 +1,36 @@
+.panel {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 4px gray;
+    background-color: white;
+}
+
+.panel__image {
+    width: 75%;
+    max-width: 200px;
+    margin: auto;
+    object-fit: cover;
+    border: 4px double gray;
+}
+
+.panel__title {
+    grid-column: span 8;
+    grid-row: span 1;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.panel__text {
+    grid-column: span 8;
+    grid-row: span 1;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    overflow-wrap: break-word;
+    text-align: justify;
+    text-indent: 0;
+    color: #343434;
+}

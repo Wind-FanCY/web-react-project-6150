@@ -1,0 +1,34 @@
+.header {
+    grid-column: span 12;
+    display: grid;
+    grid-template-areas: 
+        "header-logo header-title header-profile"
+        "header-nav header-nav header-nav"
+    ;
+    grid-template-columns: auto 1fr;
+    background-color: #fff;
+}
+
+.header__logo {
+    grid-area: header-logo;
+    width: 5rem;
+    border-radius: 3rem;
+    margin: 1rem 2rem;
+}
+
+.header__title {
+    grid-area: header-title;
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.header__profile {
+    grid-area: header-profile;
+    position: relative;
+}
+
+.header__nav {
+    grid-area: header-nav;
+}
+
