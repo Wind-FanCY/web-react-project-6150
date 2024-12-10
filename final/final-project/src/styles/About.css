@@ -1,0 +1,75 @@
+.about {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+@media (max-width: 45rem) {
+    .about-intro {
+        grid-column: span 12;
+        margin: 2rem;
+    }
+
+    .intro-title {
+        text-align: center;
+    }
+
+    .intro-real {
+        margin-top: 1rem;
+        color: #343434;
+        text-align: justify;
+        text-indent: 2rem;
+    }
+
+    .intro-bold {
+        color: #343434;
+        font-size: large;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .about-accordion {
+        grid-column: span 12;
+        margin: 0 2rem;
+    }
+
+    .accordion-pre {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: brown;
+    }
+}
+
+@media (min-width: 45rem) {
+    .about-intro {
+        grid-column: 2 / span 10;
+        margin: 3rem;
+    }
+
+    .intro-title {
+        text-align: center;
+    }
+
+    .intro-real {
+        margin-top: 1rem;
+        color: #343434;
+        text-align: justify;
+        text-indent: 2rem;
+    }
+
+    .intro-bold {
+        color: #343434;
+        font-size: large;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .about-accordion {
+        grid-column: 2 / span 10;
+    }
+
+    .accordion-pre {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        color: brown;
+    }
+}

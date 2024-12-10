@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #eee;
+  --primary-contrast-color: black;
+  --secondary-color: burlywood;
+  --secondary-contrast-color: black;
+  --accent-color: white;
+  --accent-contrast-color: black;
+  --neutral-color: papayawhip;
+  --neutral-contrast-color: black;
+  --button-color: lime;
+  --button-contrast-color: lightcoral;
+  --focus-color: dodgerblue;
+  --focus-contrast-color: red;
+  --click-color: blue;
+  /* role color assignment */
+  --body-focus-color: var(--focus-color);
+  --header-skip-bg: var(--accent-color);
+  --header-skip-text: var(--accent-contrast-color);
+  --header-bg-color: var(--secondary-color);
+  --header-text-color: var(--secondary-contrast-color);
+  --header-nav-color: var(--click-color);
+  --header-nav-hover: var(--focus-color);
+  --header-seperate-line: var(--secondary-contrast-color);
+  --main-bg-color: var(--neutral-color);
+  --main-card-bg: var(--primary-color);
+  --main-card-text: var(--primary-contrast-color);
+  --main-card-link: var(--click-color);
+  --modal-bg-color: var(--accent-color);
+  --modal-text-color: var(--accent-contrast-color);
+  --modal-subscribe-color: var(--button-color);
+  --modal-cancel-color: var(--button-contrast-color);
+  --modal-error-color: var(--focus-contrast-color);
+  --footer-bg-color: var(--secondary-color);
+  --footer-text-hover: var(--accent-color);
+  --footer-link-color: var(--click-color);
+  --footer-link-hover: var(--focus-color);
+}
+
+.app {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.mainArea {
+  grid-column: span 12;
+  min-height: 75dvh;
+}
+
+.footer {
+  grid-column: span 12;
+  margin-top: 3rem;
+  background-color: #343434;
+}

@@ -1,0 +1,134 @@
+@media (max-width: 45rem) {
+    .profile-button {
+        all: unset;
+        width: 3rem;
+        height: 3rem;
+        margin: 0.5rem 1rem 0.5rem 0;
+    }
+
+    .profile-button:focus {
+        outline: 2px solid black;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #343434;
+        border-radius: 35%;
+        vertical-align: top;
+    }
+
+    .profile-dropdown {
+        position: absolute;
+        display: none;
+        width: 8rem;
+        max-height: 10rem;
+        box-shadow: 2px 2px 4px gray;
+        text-align: center;
+        background-color: var(--neutral-color);
+        top: 5rem;
+        right: 0;
+        z-index: 9999;
+    }
+
+    .profile-dropdown::before {
+        position: absolute;
+        content: "";
+        border: 1rem solid transparent;
+        border-bottom: 1rem solid var(--neutral-colorr);
+        top: -2rem;
+        right: 2rem;
+        transform: translateX(0.5rem);
+    }
+
+    .show {
+        display: block;
+    }
+
+    .dropdown-username {
+        padding: 0.5rem 0;
+        font-size: 1rem;
+        border-bottom: 2px dashed #343434;
+    }
+
+    .dropdown-link {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.25rem 0;
+        text-decoration: none;
+        color: #343434;
+    }
+
+    .dropdown-link:hover {
+        color: aliceblue;
+        background-color: #343434;
+        transition: background-color 0.5s ease;
+    }
+}
+
+@media (min-width: 45rem) {
+    .profile-button {
+        all: unset;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .profile-button:focus {
+        outline: 2px solid black;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #343434;
+        border-radius: 35%;
+        vertical-align: top;
+    }
+
+    .profile-dropdown {
+        position: absolute;
+        display: none;
+        width: 10rem;
+        max-height: 10rem;
+        box-shadow: 2px 2px 4px gray;
+        text-align: center;
+        background-color: var(--neutral-color);
+        top: 5.25rem;
+        right: -2rem;
+        z-index: 9999;
+    }
+
+    .profile-dropdown::before {
+        position: absolute;
+        content: "";
+        border: 1rem solid transparent;
+        border-bottom: 1rem solid var(--neutral-color);
+        top: -2rem;
+        right: 3rem
+    }
+
+    .show {
+        display: block;
+    }
+
+    .dropdown-username {
+        padding: 0.5rem 0;
+        border-bottom: 2px dashed #343434;
+    }
+
+    .dropdown-link {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 0.25rem 0;
+        text-decoration: none;
+        color: #343434;
+    }
+
+    .dropdown-link:hover {
+        color: aliceblue;
+        background-color: #343434;
+        transition: background-color 0.5s ease;
+    }
+}
