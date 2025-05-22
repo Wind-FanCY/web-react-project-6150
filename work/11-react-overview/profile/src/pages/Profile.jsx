@@ -50,7 +50,7 @@ function Profile({ userPic, setUserPic, userName, setUserName, dogFree, setDogFr
             setUserName(newName);
             onEditName(false);
         } else if(!newName) {
-            setActualErr("User name cannot be empty.");
+            setNameErr("User name cannot be empty.");
         }
     };
 
