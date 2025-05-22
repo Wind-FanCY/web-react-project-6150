@@ -1,0 +1,40 @@
+.gallery-title {
+    padding: 3rem 2rem 1rem 2rem;
+    text-align: center;
+}
+
+.gallery-intro {
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    border-bottom: 2px solid black;
+    border-radius: 45%;
+    box-shadow: 0 3px 3px gray;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.gallery-filter {
+    grid-column: span 15;
+    margin-bottom: 1rem;
+}
+
+.filter-label {
+    font-weight: 700;
+}
+
+.filter-select {
+    padding: 0.25rem 0.5rem;
+}
+
+@media (max-width: 45rem) {
+    .min-gallery {
+        grid-column: span 5;
+    }
+}

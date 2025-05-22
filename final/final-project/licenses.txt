@@ -1,0 +1,35 @@
+I downloaded all the images from unsplash.com except logo, avater and menu icon.
+
+
+The image I personally own:
+
+* logo-dog.png -- I used AI to synthesize the website logo.
+* user-avater.jpg -- I used AI to synthesize the website logo.
+
+
+The hamburger menu icon I downloaded from  http://fonts.google.com/icons ( It is used under the Apache License 2.0: https://github.com/google/material-design-icons/blob/master/LICENSE):
+
+* icon-menu.png -- I used it as a dropdown menu button.
+* icon-open.png -- I used it as a accordion open button.
+* icon-close.png -- I used it as a accordion close button.
+* icon-pets.png -- I used it as a background style.
+* icon-edit.png -- I used it as a edit button style.
+
+
+The Images I downloaded from unsplash.com (They are all free to use under the Unsplash License: https://unsplash.com/license):
+
+* home-img.jpg: https://unsplash.com/photos/a-dog-that-is-standing-in-the-grass-5i0aR6XwNbw
+* Labrador-01.jpg: https://unsplash.com/photos/short-coated-black-dog-sitting-gYxVSeZazXU
+* Labrador-02.jpg: https://unsplash.com/photos/adult-yellow-labrador-retriever-c7bUIRBqapA
+* Golden-01.jpg: https://unsplash.com/photos/bokeh-photography-of-adult-golden-retriever-OJB4PA87fzY
+* Golden-02.jpg: https://unsplash.com/photos/golden-retriever-puppy-on-snow-covered-ground-during-daytime-lgILhKUELg4
+* Poodle-01.jpg: https://unsplash.com/photos/a-black-dog-standing-in-a-field-of-tall-grass-heuEwJAqEkk
+* Poodle-02.jpg: https://unsplash.com/photos/short-coat-brown-dog-leaning-on-brown-leather-sofa-inside-room-a4_mxXA9ARU
+* GShepherd-01.jpg: https://unsplash.com/photos/black-and-tan-german-shepherd-puppy-on-white-sand-during-daytime-LcA-PeFJP_o
+* Beagle-01.jpg: https://unsplash.com/photos/adult-white-and-tan-beagle-on-field-mtXgw7674W8
+* FBulldog-01.jpg: https://unsplash.com/photos/adult-boston-terrier-sitting-on-white-surface-VzG64C5T7p4
+* FBulldog-02.jpg: https://unsplash.com/photos/a-small-white-dog-sitting-on-top-of-a-cushion-MNreAmQ8YrQ
+* story-01.png -- https://images.unsplash.com/photo-1672116912655-7e718e8f65fb?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+* story-02.png -- https://images.unsplash.com/photo-1671202763812-539806f76255?q=80&w=1773&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+* story-03.png -- https://images.unsplash.com/photo-1683814379330-850b83821645?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+* story-04.png -- https://images.unsplash.com/photo-1613947748606-bc0b2aaa4369?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D

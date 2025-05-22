@@ -1,0 +1,94 @@
+.card {
+    grid-column: span 3;
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto 1fr auto;
+    border-radius: 2%;
+    box-shadow: 2px 2px 4px gray;
+    background-color: antiquewhite;
+}
+
+.card-image {
+    grid-column: span 12;
+    grid-row: span 1;
+    width: 100%;
+    border: 6px double black;
+}
+
+.card-title {
+    grid-column: span 12;
+    grid-row: span 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card-traits {
+    grid-column: span 12;
+    grid-row: span 1;
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+}
+
+.card-text {
+    grid-column: span 12;
+    grid-row: span 1;
+    padding: 1rem;
+    font-size: 0.75rem;
+    text-align: justify;
+    word-break: break-word;
+}
+
+.card-btn {
+    grid-column: 4 / span 6;
+    grid-row: span 1;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid var(--neutral-contrast-color);
+    background-color: lightblue;
+    transition: background-color 0.5s ease;
+}
+
+.card-btn:hover {
+    background-color: rgb(102, 170, 193);
+}
+
+.pic {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 1fr ;
+    border-radius: 2%;
+    box-shadow: 2px 2px 4px gray;
+    background-color: antiquewhite;
+}
+
+.pic-image {
+    grid-column: span 12;
+    grid-row: span 1;
+    width: 100%;
+    border: 6px double black;
+}
+
+.pic-title {
+    grid-column: span 12;
+    grid-row: span 1;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+@media (max-width: 80rem) {
+    .card {
+        grid-column: span 4;
+    }
+}
+
+@media (max-width: 45rem) {
+    .card {
+        grid-column: span 12;
+    }
+}
